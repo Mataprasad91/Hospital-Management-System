@@ -12,8 +12,6 @@
             <div class="card border-0 text-white bg-success mb-3" style="max-width: 20rem;">
                 <div class="card-header">Responses</div>
                 <div class="card-body bg-light">
-
-                   
                     <button class="btn btn-success btn-sm">Check</button>
                 </div>
             </div>

@@ -24,7 +24,7 @@ if ($url == "loginFailed") {
       </div>
       <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
         <form action="source/doctor-source.php" method="POST">
-          <!-- user input -->
+         
           <u> <b>
               <h3>DOCTOR LOGIN</h3>
             </b> </u>
