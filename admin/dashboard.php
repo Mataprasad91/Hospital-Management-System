@@ -13,7 +13,7 @@
                 <div class="card-header">Responses</div>
                 <div class="card-body bg-light">
 
-                    <p class="dashboard-card-title">255 New Responses</p>
+                   
                     <button class="btn btn-success btn-sm">Check</button>
                 </div>
             </div>
