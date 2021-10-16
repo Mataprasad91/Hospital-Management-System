@@ -153,6 +153,12 @@ if(isset($_SESSION['email'])){
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
           </li>
+          <li class="sub-menu">
+            <a href="logoutpatient.php" class="">
+                         
+                          <span>Log Out</span>
+                          <span class="menu-arrow arrow_carrot-right"></span>
+                      </a>
         
            
           </li>
