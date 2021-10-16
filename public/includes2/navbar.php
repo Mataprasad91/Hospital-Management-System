@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary navbar__main">
+<nav class="navbar navbar-expand-lg navbar-dark bg-info navbar__main">
   
   <div class="container-fluid">
     <a class="navbar-brand" href="#">JANSEVA HOSPITAL</a>
@@ -15,15 +15,9 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-           OUR SERVICES
+           OUR DOCTORS
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item navabr__menu" href="#">CANCER</a></li>
-            <li><a class="dropdown-item" href="#">TV</a></li>
-            <li><a class="dropdown-item" href="#">ADIS</a></li>
-            <li><a class="dropdown-item" href="#">TYPOID</a></li>
-            
-          </ul>
+          
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle active " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">

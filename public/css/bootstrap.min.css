@@ -4027,8 +4027,8 @@ fieldset:disabled .btn {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding-top: 0.85rem;
-  padding-bottom: 0.85rem;
+  padding-top:  2.85rem;
+  padding-bottom: 2.85rem;
 }
 .navbar > .container,
 .navbar > .container-fluid,
