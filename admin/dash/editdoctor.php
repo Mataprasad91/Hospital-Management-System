@@ -1,7 +1,7 @@
 
 <?php
   include "header.php";
-  
+
   include "../../db/dbconfig.php";
 ?>
 
@@ -18,7 +18,7 @@ $url = substr($currentURL, strrpos($currentURL, '?') + 1);
 if ($url == "msg=doctorUpdated") {
   echo '<div class="alert alert-dismissible alert-success">
             <button type="button" class="btn-close close" data-dismiss="alert"></button>
-            <strong>Doctor record updated</strong> 
+            <strong>Doctor record updated</strong>
           </div>';
 }
 
@@ -29,10 +29,10 @@ if ($url == "msg=doctorUpdated") {
         <div class="row">
           <div class="col-lg-12">
 
-          
+
           </div>
         </div>
-        
+
           </div>
         </div>
         <div class="row">
@@ -62,7 +62,7 @@ if ($url == "msg=doctorUpdated") {
                     <th>EMAIL</th>
                     <th>PASSWORD</th>
                     <th>EDIT</th>
-                    
+
                   </tr>
                 </thead>
                 <tbody>
@@ -70,12 +70,12 @@ if ($url == "msg=doctorUpdated") {
                 if(mysqli_num_rows($query)>0)
                 {
                      while($row=mysqli_fetch_assoc($query))
-                      {  
+                      {
                       ?>
 
 
 
-                       
+
                 <tr>
                     <td> <?php echo $row['fname']; ?></td>
                     <td> <?php echo $row['lname']; ?></td>
@@ -92,7 +92,7 @@ if ($url == "msg=doctorUpdated") {
                         <button type="submit" name="edit_button" class="btn btn-success">EDIT</a></button>
                       </form>
                     </td>
-                    
+
                   </tr>
                   <?php
                      }
@@ -100,14 +100,14 @@ if ($url == "msg=doctorUpdated") {
                 }else{
                     echo"record is not view";
                 }
-                
+
                  ?>
                </tbody>
               </table>
             </section>
           </div>
 
- 
+
 
 <?php
 

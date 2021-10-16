@@ -14,7 +14,7 @@ include "../../db/dbconfig.php";
         if($query)
         {
             
-            header('location: ../dash/deletedoctorappointment.php?msg=appointmentDeleteSuccessfull');
+            header('location: ../dash/deletedoctorappointment.php?msg=doctordelete');
         }
         else{
            header("location: ../dash/deletedoctorappointment.php?appointmentDeleteUnSuccessfull");

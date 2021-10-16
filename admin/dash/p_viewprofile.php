@@ -38,31 +38,13 @@ if (!isset($_SESSION['email']))
                 
                 </div>
                 <div class="col-lg-2 col-sm-6 follow-info weather-category">
-                  <ul>
-                    <li class="active">
-
-                      <i class="fa fa-comments fa-2x"> </i><br> We are with u always at every moment of life!!!
-                    </li>
-
-                  </ul>
+                  
                 </div>
                 <div class="col-lg-2 col-sm-6 follow-info weather-category">
-                  <ul>
-                    <li class="active">
-
-                      <i class="fa fa-bell fa-2x"> </i><br> All services are free of cost
-                    </li>
-
-                  </ul>
+                  
                 </div>
                 <div class="col-lg-2 col-sm-6 follow-info weather-category">
-                  <ul>
-                    <li class="active">
-
-                      <i class="fa fa-tachometer fa-2x"> </i><br> At best prices, get your best treatment
-                    </li>
-
-                  </ul>
+                 
                 </div>
               </div>
             </div>

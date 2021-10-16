@@ -4027,8 +4027,8 @@ fieldset:disabled .btn {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding-top: 0.85rem;
-  padding-bottom: 0.85rem;
+  padding-top: 2.85rem;
+  padding-bottom: 1.85rem;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -10524,6 +10524,7 @@ fieldset:disabled .btn {
 .navbar {
   font-size: 0.875rem;
   font-weight: 500;
+  height: 16vh;
 }
 .navbar .nav-item {
   margin-left: 0.5rem;

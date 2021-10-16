@@ -15,7 +15,7 @@ $currentURL = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ?
   "https" : "http") . "://" . $_SERVER['HTTP_HOST'] .
   $_SERVER['REQUEST_URI'];
 $url = substr($currentURL, strrpos($currentURL, '?') + 1);
-if ($url == "msg=doctordelete") {
+if ($url == "msg=patientDeleteSuccessfull") {
   echo '<div class="alert alert-dismissible alert-success">
             <button type="button" class="btn-close close" data-dismiss="alert"></button>
             <strong>PATIENTS RECORD DELETED</strong> 

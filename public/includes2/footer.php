@@ -9,8 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
     -->
     <script type="text/javascript" src="jquery.js"></script>
-<script type="text/javascript" src="_js/bootstrap-datepicker.js"></script>
-<script type="text/javascript" src="_js/bootstrap.js"></script>
+
  
     </body>
 </html>

@@ -22,49 +22,36 @@ if (!isset($_SESSION['email']))
   <link rel="shortcut icon" href="img/favicon.png">
    <title>DOCTOR DASHBOARD</title>
 
-  <!-- Bootstrap CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <!-- bootstrap theme -->
+
   <link href="css/bootstrap-theme.css" rel="stylesheet">
-  <!--external css-->
-  <!-- font icon -->
+
   <link href="css/elegant-icons-style.css" rel="stylesheet" />
   <link href="css/font-awesome.min.css" rel="stylesheet" />
-  <!-- Custom styles -->
+
   <link href="css/style.css" rel="stylesheet">
   <link href="css/style-responsive.css" rel="stylesheet" />
 
-  <!-- HTML5 shim and Respond.js IE8 support of HTML5 -->
-  <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
-      <script src="js/lte-ie7.js"></script>
-    <![endif]-->
-
-    <!-- =======================================================
-      Theme Name: NiceAdmin
-      Theme URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
-      Author: BootstrapMade
-      Author URL: https://bootstrapmade.com
-    ======================================================= -->
+  
 </head>
 
 <body>
-  <!-- container section start -->
+  
   <section id="container" class="">
-    <!--header start-->
+   
 
     <header class="header dark-bg">
       <div class="toggle-nav">
         <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"><i class="icon_menu"></i></div>
       </div>
 
-      <!--logo start-->
+      
       <a href="#" class="logo">DOCTOR<span class="lite">DASHBOARD</span></a>
-      <!--logo end-->
+  
+      
 
       <div class="nav search-row" id="top_menu">
-        <!--  search form start -->
+      
         <ul class="nav top-menu">
           <li>
             <form class="navbar-form">
@@ -72,15 +59,13 @@ if (!isset($_SESSION['email']))
             </form>
           </li>
         </ul>
-        <!--  search form end -->
+       
       </div>
 
       <div class="top-nav notification-row">
-        <!-- notificatoin dropdown start-->
+       
         <ul class="nav pull-right top-menu">
 
-          <!-- alert notification end-->
-          <!-- user login dropdown start-->
           <li class="dropdown">
             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                             <span class="profile-ava">
@@ -105,12 +90,11 @@ if (!isset($_SESSION['email']))
         
       </div>
     </header>
-    <!--header end-->
+  
 
-    <!--sidebar start-->
     <aside>
       <div id="sidebar" class="nav-collapse ">
-        <!-- sidebar menu start-->
+      
         <ul class="sidebar-menu">
           <li class="">
             <a class="" href="#">
@@ -141,17 +125,17 @@ if (!isset($_SESSION['email']))
                 <i class="icon_genius"></i>
                 <span>Delete Appointment</span>
             </a>
+            <a class="" href="logoutdoc.php">
+                <i class="icon_genius"></i>
+                <span>Log out</span>
+            </a>
         
             </li>
          
         </ul>
-        <!-- sidebar menu end-->
+      
       </div>
     </aside>
-    <!--sidebar end-->
 
-    <!--main content start-->
-   
-        <!-- page end-->
       </section>
     </section>

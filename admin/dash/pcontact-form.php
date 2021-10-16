@@ -1,12 +1,18 @@
-<?php 
-    $title = "CONTACT US";
-    include "../public/includes2/header.php";
-    include "../public/includes2/navbar.php";
 
-       
+
+<?php  
+
+include "headerpatient.php";
+
+
+
+
+
+
 
 ?>
 
+<link rel="stylesheet" href="../stylecontact.css">
 
 <div class="container">
   <div style="text-align:center">
@@ -26,10 +32,8 @@ if ($url == "msg=submittedsuccesfully") {
 }
 ?>
   <div class="row">
-  <link rel="stylesheet" type="text/css" href="stylecontact.css">
-    </head>
     <div class="column">
-      <img src="login-bg.jpg" style="width: 105%" height="100%">
+      <img src="../login-bg.jpg" style="width: 105%" height="100%">
     </div>
     <div class="column">
       <form action="source/viewcontactus_source.php" method="post">
@@ -50,16 +54,3 @@ if ($url == "msg=submittedsuccesfully") {
     </div>
   </div>
 </div>
-<footer>
-            
-           
-            <div class="row cpline">
-                <p>copyright &copy; 2020 by Mataprasad. All rights reserved.
-                </p>
-            </div>
-        
-    </footer>
-<?php
-include "../public/includes2/footer.php"
-
-?>

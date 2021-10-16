@@ -8,15 +8,15 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">HOME</a>
+          <a class="nav-link active" aria-current="page" href="homepage.php">HOME</a>
         </li>
         <li class="nav-item">
           <a class="nav-link active" href="#">ABOUTUS</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
-           OUR DOCTORS
-          </a>
+        
+        <li class="nav-item">
+          <a class="nav-link active" href="../admin/doctor.php">OUR DOCTORS </a>
+        </li>
           
         </li>
         <li class="nav-item dropdown">

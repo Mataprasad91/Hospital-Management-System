@@ -2,7 +2,7 @@
 
 <?php
        
-       function getAllAppointment($){
+       function getAllAppointment(){
            $servername = "localhost";
            $username = "root";
            $password = "";
@@ -10,7 +10,7 @@
 
            // Create connection
            $conn = mysqli_connect($servername, $username, $password,$db);
-           $sql="SELECT COUNT(1) AS NOOFCONTACTS FROM appoitments where fkPatientId = $patientID";
+           $sql="SELECT COUNT(1) AS NOOFCONTACTS FROM appoitments  ";
 
            $query=mysqli_query($conn,$sql);
            if(mysqli_num_rows($query)>0){

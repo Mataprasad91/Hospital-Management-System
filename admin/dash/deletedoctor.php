@@ -1,7 +1,7 @@
 
 <?php
   include "header.php";
-  
+
   include "../../db/dbconfig.php";
 ?>
 
@@ -18,7 +18,7 @@ $url = substr($currentURL, strrpos($currentURL, '?') + 1);
 if ($url == "msg=doctordelete") {
   echo '<div class="alert alert-dismissible alert-success">
             <button type="button" class="btn-close close" data-dismiss="alert"></button>
-            <strong>DOCTOR RECORD DELETED</strong> 
+            <strong>DOCTOR RECORD DELETED</strong>
           </div>';
 }
 
@@ -29,10 +29,10 @@ if ($url == "msg=doctordelete") {
         <div class="row">
           <div class="col-lg-12">
 
-          
+
           </div>
         </div>
-        
+
           </div>
         </div>
         <div class="row">
@@ -62,8 +62,8 @@ if ($url == "msg=doctordelete") {
                     <th>EMAIL</th>
                     <th>PASSWORD</th>
                     <th>DELETE</th>
-                    
-                    
+
+
                   </tr>
                 </thead>
                 <tbody>
@@ -71,12 +71,10 @@ if ($url == "msg=doctordelete") {
                 if(mysqli_num_rows($query)>0)
                 {
                      while($row=mysqli_fetch_assoc($query))
-                      {  
+                      {
                       ?>
 
 
-
-                       
                 <tr>
                     <td> <?php echo $row['fname']; ?></td>
                     <td> <?php echo $row['lname']; ?></td>
@@ -93,7 +91,7 @@ if ($url == "msg=doctordelete") {
                         <button type="submit" name="del_button" class="btn btn-danger">DELETE</a></button>
                       </form>
                     </td>
-                    
+
                   </tr>
                   <?php
                      }
@@ -101,14 +99,14 @@ if ($url == "msg=doctordelete") {
                 }else{
                     echo"record is not view";
                 }
-                
+
                  ?>
                </tbody>
               </table>
             </section>
           </div>
 
- 
+
 
 <?php
 
