@@ -32,7 +32,7 @@
 
               $sql="Select appoitments.appoitmentId AS APPOINTMENTID,appoitments.DoctorName AS DOCTORNAME,appoitments.specialization AS SPECILIZATION,appoitments.date AS DATE, appoitments.time AS TIME, register_patient.firstname AS FIRSTNAME, register_patient.lastname AS LASTNAME,register_patient.Address AS ADDRESS,register_patient.phoneNumber AS PHONENUMBER,register_patient.email AS EMAIL from appoitments
               join register_patient
-              on appoitments.fkPatientId = register_patient.patientId  and appoitments.fkPatientId = '5'";
+              on appoitments.fkPatientId = register_patient.patientId  and appoitments.fkPatientId = fkPatientId";
               $query=mysqli_query($conn,$sql);
              ?>
 

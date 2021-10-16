@@ -4027,8 +4027,8 @@ fieldset:disabled .btn {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  padding-top:  2.85rem;
-  padding-bottom: 2.85rem;
+  padding-top: 0.85rem;
+  padding-bottom: 0.85rem;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -7623,13 +7623,17 @@ fieldset:disabled .btn {
 }
 .bg-primary {
   --bs-bg-opacity: 1;
-background-color: #2482b4;
- 
+  background-color: rgba(
+    var(--bs-primary-rgb),
+    var(--bs-bg-opacity)
+  ) !important;
 }
 .bg-secondary {
   --bs-bg-opacity: 1;
-  background-color: #2482b4;
-
+  background-color: rgba(
+    var(--bs-secondary-rgb),
+    var(--bs-bg-opacity)
+  ) !important;
 }
 .bg-success {
   --bs-bg-opacity: 1;
