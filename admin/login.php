@@ -24,7 +24,7 @@ if ($url == "loginFailed") {
       </div>
       <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
         <form action="source/login-source.php" method="POST">
-          
+
           <u> <b>
               <h3>ADMIN LOGIN</h3>
             </b> </u>
@@ -34,7 +34,7 @@ if ($url == "loginFailed") {
             <input type="text" id="form1Example13" class="form-control form-control-lg" name="email" placeholder="email" />
 
           </div>
-          
+
           <div class="form-outline mb-4">
 
             <label class="form-label" for="form1Example23">PASSWORD</label>
@@ -43,7 +43,7 @@ if ($url == "loginFailed") {
           </div>
 
           <div class="d-flex justify-content-around align-items-center mb-4">
-            
+
             <div class="form-check">
               <input class="form-check-input" type="checkbox" value="" id="form1Example3" checked />
               <label class="form-check-label" for="form1Example3"> Remember me </label>
@@ -58,8 +58,6 @@ if ($url == "loginFailed") {
     </div>
   </div>
 </section>
-
-
 
 <?php
 include "includes/footer.php";

@@ -12,7 +12,7 @@ include "../allPatientFunction.php";
 include "../../db/dbconfig.php";
 ?>
 
-<?php 
+<?php
 if(isset($_SESSION['email'])){
 
   $sql1="SELECT * FROM register_patient where email = '$patientEmail'";
@@ -20,11 +20,11 @@ if(isset($_SESSION['email'])){
   $query1=mysqli_query($conn,$sql1);
   if(mysqli_num_rows($query1)>0){
       while($row=mysqli_fetch_assoc($query1))
-      { 
+      {
           $patientId = $row['patientId'];
        }
   }
- 
+
 }
 ?>
 
@@ -40,7 +40,7 @@ if(isset($_SESSION['email'])){
   <link rel="shortcut icon" href="img/favicon.png">
    <title>PATIENT DASHBOARD</title>
 
-  
+
   <!-- Bootstrap CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- bootstrap theme -->
@@ -85,7 +85,7 @@ if(isset($_SESSION['email'])){
         <!-- notificatoin dropdown start-->
         <ul class="nav pull-right top-menu">
 
-          
+
           <!-- alert notification end-->
           <!-- user login dropdown start-->
           <li class="dropdown">
@@ -101,15 +101,15 @@ if(isset($_SESSION['email'])){
               <li class="eborder-top">
                 <a href="#"><i class="icon_profile"></i> My Profile</a>
               </li>
-              
+
               <li>
                 <a href="logoutpatient.php"><i class=""></i> Log Out</a>
               </li>
             </ul>
           </li>
-          
+
         </ul>
-        
+
       </div>
     </header>
     <!--header end-->
@@ -155,17 +155,17 @@ if(isset($_SESSION['email'])){
           </li>
           <li class="sub-menu">
             <a href="logoutpatient.php" class="">
-                         
+
                           <span>Log Out</span>
                           <span class="menu-arrow arrow_carrot-right"></span>
                       </a>
-        
-           
+
+
           </li>
         </ul>
       </div>
     </aside>
-    
+
       </section>
     </section>
     <section id="main-content">
@@ -185,7 +185,7 @@ if(isset($_SESSION['email'])){
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="info-box blue-bg">
               <i class="fa fa-cloud-download"></i>
-              <div class="count"><?php  getAllAppointment($patientId) ?></div>
+              <div class="count"><?php  getAllAppointment($patientId.) ?></div>
               <div class="title">NO.OF Appointment</div>
             </div>
             <!--/.info-box-->
@@ -202,7 +202,7 @@ if(isset($_SESSION['email'])){
           </div>
           <!--/.col-->
 
-          
+
             <!--/.info-box-->
           </div>
           <!--/.col-->
@@ -211,7 +211,7 @@ if(isset($_SESSION['email'])){
         <!--/.row-->
 
     <!--main content start-->
-   
+
         <!-- page end-->
       </section>
     </section>

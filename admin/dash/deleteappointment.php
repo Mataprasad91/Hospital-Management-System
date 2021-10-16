@@ -1,7 +1,7 @@
 
 <?php
   include "header.php";
-  
+
   include "../../db/dbconfig.php";
 ?>
 
@@ -15,10 +15,10 @@ $currentURL = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ?
   "https" : "http") . "://" . $_SERVER['HTTP_HOST'] .
   $_SERVER['REQUEST_URI'];
 $url = substr($currentURL, strrpos($currentURL, '?') + 1);
-if ($url == "msg=doctordelete") {
+if ($url == "msg=appointmentDeleteSuccessfull") {
   echo '<div class="alert alert-dismissible alert-success">
             <button type="button" class="btn-close close" data-dismiss="alert"></button>
-            <strong>APPOINTMENT RECORD DELETED</strong> 
+            <strong>APPOINTMENT RECORD DELETED</strong>
           </div>';
 }
 
@@ -29,10 +29,9 @@ if ($url == "msg=doctordelete") {
         <div class="row">
           <div class="col-lg-12">
 
-          
           </div>
         </div>
-        
+
           </div>
         </div>
         <div class="row">
@@ -42,7 +41,7 @@ if ($url == "msg=doctordelete") {
                DELETE APPOINTMENTS
               </header>
               <?php
-           
+
 
            $sql="Select appoitments.appoitmentId AS APPOINTMENTID,appoitments.DoctorName AS DOCTORNAME,appoitments.specialization AS SPECILIZATION,appoitments.date AS DATE, appoitments.time AS TIME, register_patient.firstname AS FIRSTNAME, register_patient.lastname AS LASTNAME,register_patient.Address AS ADDRESS,register_patient.phoneNumber AS PHONENUMBER,register_patient.email AS EMAIL from appoitments
            join register_patient
@@ -71,7 +70,7 @@ if ($url == "msg=doctordelete") {
                 if(mysqli_num_rows($query)>0)
                 {
                      while($row=mysqli_fetch_assoc($query))
-                      {  
+                      {
                       ?>
 
                 <tr>
@@ -90,7 +89,7 @@ if ($url == "msg=doctordelete") {
                         <button type="submit" name="del_button" class="btn btn-danger">DELETE</a></button>
                       </form>
                     </td>
-                    
+
                   </tr>
                   <?php
                      }
@@ -98,14 +97,12 @@ if ($url == "msg=doctordelete") {
                 }else{
                     echo"record is not view";
                 }
-                
+
                  ?>
                </tbody>
               </table>
             </section>
           </div>
-
- 
 
 <?php
 

@@ -47,14 +47,14 @@ if ($url == "LoginFailed") {
             <p class="text-center fw-bold mx-3 mb-0">Or</p>
           </div>
 
-          <!-- Email input -->
+
           <div class="form-outline mb-4">
             <input type="email" name="email" class="form-control form-control-lg"
               placeholder="Enter a valid email address" />
             <label class="form-label" for="form3Example3">Email address</label>
           </div>
 
-          <!-- Password input -->
+        .. Password input -->
           <div class="form-outline mb-3">
             <input type="password" name="password" class="form-control form-control-lg"
               placeholder="Enter password" />
@@ -62,7 +62,7 @@ if ($url == "LoginFailed") {
           </div>
 
           <div class="d-flex justify-content-between align-items-center">
-            <!-- Checkbox -->
+          .. Checkbox -->
             <div class="form-check mb-0">
               <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
               <label class="form-check-label" for="form2Example3">
@@ -84,13 +84,11 @@ if ($url == "LoginFailed") {
     </div>
   </div>
   <div class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary">
-    <!-- Copyright -->
-    <div class="text-white mb-3 mb-md-0">
-      Copyright © 2020. All rights reserved.
-    </div>
-    <!-- Copyright -->
 
-    <!-- Right -->
+    <div class="text-white mb-3 mb-md-0">
+
+    </div>
+
     <div>
       <a href="https://www.facebook.com " class="text-white me-4">
         <i class="fab fa-facebook-f"></i>
@@ -105,6 +103,6 @@ if ($url == "LoginFailed") {
         <i class="fab fa-linkedin-in"></i>
       </a>
     </div>
-    <!-- Right -->
+  .. Right -->
   </div>
 </section>
