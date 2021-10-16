@@ -16,32 +16,32 @@
 </head>
 <body>
 
-    
-<section class="slide">   
+
+<section class="slide">
 <div class="slideshow-container">
 
 <div class="mySlides fade">
   <img class="img1" src="img1.jpeg">
-  
+
 </div>
 
 <div class="mySlides fade img2">
   <img class="img2" src="img2.jpeg">
- 
+
 </div>
 
 <div class="mySlides fade img3">
   <img class="img3" src="img3.jpeg">
-  
+
 </div>
 
 </div>
 <br>
 
 <div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
 </div>
     </section>
     <section class="sec2">
@@ -58,7 +58,7 @@ We invite you to explore the information about our dental office on our website!
 
 Once our customer, you will be leaving our dental clinic with a bright, wide smile!</p>
     </section>
-    
+
     <section class="section4" id="price">
          <div class="container1">
            <video  class="video1" controls>
@@ -68,13 +68,13 @@ Once our customer, you will be leaving our dental clinic with a bright, wide smi
             </div>
         </section>
      <footer>
-            
-           
+
+
                 <div class="row cpline">
                     <p>copyright &copy; 2020 by Mataprasad. All rights reserved.
                     </p>
                 </div>
-            
+
         </footer>
 <script>
 var slideIndex = 0;
@@ -85,19 +85,19 @@ function showSlides() {
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
   for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+    slides[i].style.display = "none";
   }
   slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
+  if (slideIndex > slides.length) {slideIndex = 1}
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 3000); // Change image every 2 seconds
+  setTimeout(showSlides, 10000); // Change image every 2 seconds
 }
 </script>
 
 </body>
-</html> 
+</html>
 

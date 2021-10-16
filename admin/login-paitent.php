@@ -54,7 +54,7 @@ if ($url == "LoginFailed") {
             <label class="form-label" for="form3Example3">Email address</label>
           </div>
 
-        .. Password input -->
+
           <div class="form-outline mb-3">
             <input type="password" name="password" class="form-control form-control-lg"
               placeholder="Enter password" />
@@ -62,7 +62,7 @@ if ($url == "LoginFailed") {
           </div>
 
           <div class="d-flex justify-content-between align-items-center">
-          .. Checkbox -->
+
             <div class="form-check mb-0">
               <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
               <label class="form-check-label" for="form2Example3">
@@ -103,6 +103,6 @@ if ($url == "LoginFailed") {
         <i class="fab fa-linkedin-in"></i>
       </a>
     </div>
-  .. Right -->
+
   </div>
 </section>

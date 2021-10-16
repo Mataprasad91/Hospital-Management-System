@@ -115,12 +115,7 @@ include "../allFunction.php";
                             <li><a class="" href="deletedoctor.php">DELETE DOCTOR</a></li>
                         </ul>
                     </li>
-                    <li class="sub-menu">
-                        <a href="#" class="">
-                            <i class=""></i></i>
-                            <span>DEPARTMENT</span>
-                            <span class="menu-arrow arrow_carrot-right"></span>
-                        </a>
+
 
                     <li class="sub-menu">
                         <a href="#" class="">
@@ -152,8 +147,13 @@ include "../allFunction.php";
                         </a>
                         <ul class="sub">
                             <li><a class="" href="viewcontact.php">Contactus Lists</a></li>
+
                         </ul>
+                        <li>
+                                <a href="logout.php"><i class=""></i> Log Out</a>
+                            </li>
                 </ul>
+
 
             </div>
         </aside>

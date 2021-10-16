@@ -1,6 +1,6 @@
 <section id="main-content">
       <section class="wrapper">
-        <!--overview start-->
+
         <div class="row">
           <div class="col-lg-12">
             <h3 class="page-header"><i class="fa fa-laptop"></i> Dashboard</h3>
@@ -18,9 +18,9 @@
               <div class="count"><?php  getAllAppointment($patientId) ?></div>
               <div class="title">NO.OF Appointment</div>
             </div>
-            <!--/.info-box-->
+
           </div>
-          <!--/.col-->
+
 
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="info-box brown-bg">
@@ -28,20 +28,13 @@
               <div class="count"><?php getAllQueries( $_SESSION['email'])  ?></div>
               <div class="title">No. of Queries</div>
             </div>
-            <!--/.info-box-->
-          </div>
-          <!--/.col-->
 
-          
-            <!--/.info-box-->
           </div>
-          <!--/.col-->
+
+          </div>
+
 
         </div>
-        <!--/.row-->
 
-    <!--main content start-->
-   
-        <!-- page end-->
       </section>
     </section>

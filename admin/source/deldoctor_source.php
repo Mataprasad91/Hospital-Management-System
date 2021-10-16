@@ -5,8 +5,6 @@ include "../../db/dbconfig.php";
 
 ?>
 
-
-
 <?php
 
 
@@ -20,7 +18,7 @@ include "../../db/dbconfig.php";
         var_dump($query);
         if($query)
         {
-            
+
             header('location: ../dash/deletedoctor.php?msg=doctordelete');
         }
         else{

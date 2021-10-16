@@ -1,17 +1,17 @@
-<?php 
+<?php
     $title = "CONTACT US";
     include "../public/includes2/header.php";
     include "../public/includes2/navbar.php";
 
-       
+
 
 ?>
 
 
-<div class="container">
+<div class="container" Style="margin-top: 4px;">
   <div style="text-align:center">
     <h2>Contact Us</h2>
-    <p>Swing by for a cup of coffee, or leave us a message:</p>
+    <p>WLCOME CONTACT FORM</p>
   </div>
   <?php
 $currentURL = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ?
@@ -51,13 +51,13 @@ if ($url == "msg=submittedsuccesfully") {
   </div>
 </div>
 <footer>
-            
-           
+
+
             <div class="row cpline">
                 <p>copyright &copy; 2020 by Mataprasad. All rights reserved.
                 </p>
             </div>
-        
+
     </footer>
 <?php
 include "../public/includes2/footer.php"

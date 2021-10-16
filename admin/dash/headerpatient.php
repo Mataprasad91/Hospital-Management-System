@@ -41,36 +41,36 @@ if(isset($_SESSION['email'])){
    <title>PATIENT DASHBOARD</title>
 
 
-  <!-- Bootstrap CSS -->
+
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <!-- bootstrap theme -->
+
   <link href="css/bootstrap-theme.css" rel="stylesheet">
-  <!--external css-->
-  <!-- font icon -->
+
+
   <link href="css/elegant-icons-style.css" rel="stylesheet" />
   <link href="css/font-awesome.min.css" rel="stylesheet" />
-  <!-- Custom styles -->
+
   <link href="css/style.css" rel="stylesheet">
   <link href="css/style-responsive.css" rel="stylesheet" />
 
 </head>
 
 <body>
-  <!-- container section start -->
+
   <section id="container" class="">
-    <!--header start-->
+
 
     <header class="header dark-bg">
       <div class="toggle-nav">
         <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"><i class="icon_menu"></i></div>
       </div>
 
-      <!--logo start-->
+
       <a href="#" class="logo">PATIENT<span class="lite">DASHBOARD</span></a>
-      <!--logo end-->
+
 
       <div class="nav search-row" id="top_menu">
-        <!--  search form start -->
+
         <ul class="nav top-menu">
           <li>
             <form class="navbar-form">
@@ -78,16 +78,14 @@ if(isset($_SESSION['email'])){
             </form>
           </li>
         </ul>
-        <!--  search form end -->
+
       </div>
 
       <div class="top-nav notification-row">
-        <!-- notificatoin dropdown start-->
+
         <ul class="nav pull-right top-menu">
 
 
-          <!-- alert notification end-->
-          <!-- user login dropdown start-->
           <li class="dropdown">
             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                             <span class="profile-ava">
@@ -112,12 +110,10 @@ if(isset($_SESSION['email'])){
 
       </div>
     </header>
-    <!--header end-->
 
-    <!--sidebar start-->
     <aside>
       <div id="sidebar" class="nav-collapse ">
-        <!-- sidebar menu start-->
+
         <ul class="sidebar-menu">
           <li class="">
             <a class="" href="patientdashboard.php">
@@ -170,7 +166,7 @@ if(isset($_SESSION['email'])){
     </section>
     <section id="main-content">
       <section class="wrapper">
-        <!--overview start-->
+
         <div class="row">
           <div class="col-lg-12">
             <h3 class="page-header"><i class="fa fa-laptop"></i> Dashboard</h3>
@@ -185,12 +181,11 @@ if(isset($_SESSION['email'])){
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="info-box blue-bg">
               <i class="fa fa-cloud-download"></i>
-              <div class="count"><?php  getAllAppointment($patientId.) ?></div>
+              <div class="count"><?php  getAllAppointment($patientId) ?></div>
               <div class="title">NO.OF Appointment</div>
             </div>
-            <!--/.info-box-->
+
           </div>
-          <!--/.col-->
 
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
             <div class="info-box brown-bg">
@@ -198,20 +193,13 @@ if(isset($_SESSION['email'])){
               <div class="count"><?php getAllQueries( $_SESSION['email'])  ?></div>
               <div class="title">No. of Queries</div>
             </div>
-            <!--/.info-box-->
-          </div>
-          <!--/.col-->
 
-
-            <!--/.info-box-->
           </div>
-          <!--/.col-->
+
+          </div>
+
 
         </div>
-        <!--/.row-->
 
-    <!--main content start-->
-
-        <!-- page end-->
       </section>
     </section>
