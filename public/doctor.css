@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+   
+   
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 1280px;
+    min-height: 400px;
+    background: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 10px 16px 0 rgb(0 0 0 / 14%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    padding: 40px 30px;
+    margin-right: 140px;
+    margin-left: 80px;
+}
+
+.container .sep {
+	display: block;
+	border: 2px solid #ccc;
+	width: 55%;
+	padding: 10px;
+	margin: 10px 50px;
+	border-radius: 5px;
+}
+
+.drname{
+color: #222;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+padding: 20px 0 8px;
+display: block;
+}
+strong{
+    font-weight: 700;
+}
+ul {
+margin-top: 0;
+margin-bottom: 10px;
+}
+ul, li {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+.img-holder{
+    overflow: hidden;
+
+margin-bottom: 10px;
+}
+.det-holder{
+    float: right;
+    margin-right: 40px;
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+
+h1{
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #00a5ea;
+    
+}
+
+.after-table hr {
+width: 15%;
+height: 5px;
+border: none;
+background: #35afbf;
+    margin-top: -2opx;
+}
+
+
+hr {
+box-sizing: content-box;
+height: 0;
+overflow: visible;
+}

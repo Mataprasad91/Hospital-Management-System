@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
+}
+.slideshow-container{
+    height: 70vh;
+}
+.slide{
+    height: 80vh;
+    margin-top: 5px;
+  
+}
+.img1{
+    height: 70vh;
+     width: 100%;
+}
+.img2{
+    height: 70vh;
+     width: 100%;
+}
+.img3{
+    height: 70vh;
+    width: 100%;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.sec2 {
+padding-top: 80px;
+padding-bottom: 85px;
+}
+
+.img4{
+    height: 70vh;
+    float: left;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+h1{
+    float: right;
+    margin-right: 350px;
+    text-align: center;
+    color: #0095e5;
+    font-size: 28px;
+    line-height: 1.5;
+    font-weight: 700;
+}
+.deta{
+    font-size: 20px;
+     letter-spacing: 2px;
+    word-spacing: 3px;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 700px;
+    margin-right: 40px;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+footer {
+    background-color: #258fc7;
+    padding: 10px;
+    height: 12vh;
+    margin-top: 0px;
+}
+
+.cal {
+    background-color: #2482b4;
+    padding: 10px;
+    height: 17vh;
+}
+.ic1{
+    margin-top: 20px;
+    font-size: 90px;
+    color: white;
+    margin-left: 1000px;
+}
+.ic2{
+    margin-bottom: 200px;
+    font-size: 90px;
+    color: white;
+    margin-left: 1090px;
+}
+
+
+.nav-demo {
+    background-color: #297eaa;
+    padding: 10px;
+    height: 12vh;
+}
+.cpline {
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 700;
+    color: white;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+
+.call-us{
+    margin-left: 1100px;
+    margin-top: -100px;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+}
+.call-us2{
+    margin-left: 1110px;
+    margin-top: 9px;
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+    
+}
+
+.call-us3{
+    margin-left: 1200px;
+    margin-top:-120px;
+    font-size: 20px;
+    color: black;
+    font-weight: 400;
+    
+}
+
+.video1 {
+       height: 121vh;
+       background: transperent;
+}
+.container1 { position:relative; }
+.container1 video {
+    position:relative;
+    z-index:0;
+}
