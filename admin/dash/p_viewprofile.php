@@ -4,7 +4,7 @@ include "../../db/dbconfig.php";
 if (!isset($_SESSION['email']))
 {
     header("location: ../login-paitent.php");
-  
+
   }
 // include "../allPatientFunction.php";
 
@@ -29,22 +29,22 @@ if (!isset($_SESSION['email']))
             <div class="profile-widget profile-widget-info">
               <div class="panel-body">
                 <div class="col-lg-2 col-sm-2">
-                
+
                   <div class="follow-ava">
                     <img src="img/profile-widget-avatar.jpg" alt="">
                   </div>
                 </div>
                 <div class="col-lg-4 col-sm-4 follow-info">
-                
+
                 </div>
                 <div class="col-lg-2 col-sm-6 follow-info weather-category">
-                  
+
                 </div>
                 <div class="col-lg-2 col-sm-6 follow-info weather-category">
-                  
+
                 </div>
                 <div class="col-lg-2 col-sm-6 follow-info weather-category">
-                 
+
                 </div>
               </div>
             </div>
@@ -63,8 +63,8 @@ if (!isset($_SESSION['email']))
                                       </a>
                   </li>
                   <li >
-                
-                 
+
+
                 </ul>
               </header>
               <div class="panel-body">
@@ -83,7 +83,7 @@ if (!isset($_SESSION['email']))
                         $query=mysqli_query($conn,$sql);
                         if(mysqli_num_rows($query)>0){
                             while($row=mysqli_fetch_assoc($query))
-                            { 
+                            {
                                $firstname = $row['firstname'];
                                 $lastname = $row['lastname'];
                                 $address = $row['Address'];
@@ -117,7 +117,7 @@ if (!isset($_SESSION['email']))
                           <div class="bio-row">
                             <p><span>Mobile </span>:<?php echo strtoupper($phoneNumber); }} ?> </p>
                           </div>
-                        
+
                         </div>
                       </div>
                     </section>
@@ -125,18 +125,17 @@ if (!isset($_SESSION['email']))
                       <div class="row">
                       </div>
                     </section>
-                     
+
                       </div>
 
                     </div>
                   </div>
-                  <!-- profile -->
-                  
+
                     </section>
-                  
+
                   </div>
-                  <!-- edit-profile -->
-                
+
+
                   </div>
                 </div>
               </div>
@@ -144,7 +143,7 @@ if (!isset($_SESSION['email']))
           </div>
         </div>
 
-        <!-- page end-->
+
       </section>
     </section>
 </body>

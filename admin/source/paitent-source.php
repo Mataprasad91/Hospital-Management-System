@@ -17,13 +17,13 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
   if($rows > 0){
     $_SESSION['isLoggedIn'] = true;
     $_SESSION['email'] = $email;
-   
+
     echo "Success";
    header("location: ../dash/patientdashboard.php");
   }
   else{
       mysqli_error($conn);
-   header("location: ../login-paitent.php?loginFailed");
+   header("location: ../login-paitent.php?LoginFailed");
   }
 
 }

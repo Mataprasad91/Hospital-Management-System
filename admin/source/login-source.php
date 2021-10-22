@@ -21,7 +21,7 @@ if($_SERVER["REQUEST_METHOD"] === "POST"){
     header("location: ../dash/dashboard.php");
   }
   else{
-    header("location: ../login.php?loginFiled");
+    header("location: ../login.php?loginFailed");
   }
 
 }
