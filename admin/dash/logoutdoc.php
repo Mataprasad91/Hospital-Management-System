@@ -1,7 +1,7 @@
 <?php
  session_start();
  session_destroy();
- header("location: ../doctor-login.php");
+ header("location: ../../public/homepage.php");
 
 
-?> 
+?>

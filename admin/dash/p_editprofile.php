@@ -28,7 +28,7 @@
           //  echo $sql;
            if(mysqli_num_rows($query)>0){
             while($row=mysqli_fetch_assoc($query))
-            { 
+            {
                ?>
                     <div class="panel-body">
                         <form class="form-horizontal " method="post" action="../source/editpatientprofile-source.php">
@@ -57,7 +57,7 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">Phone</label>
                                 <div class="col-sm-10">
-                                    <input type="text" value="<?php echo $row['phoneNumber'];?>" name="edit_contact"
+                                    <input type="number" value="<?php echo $row['phoneNumber'];?>" name="edit_contact"
                                         class="form-control " required>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">Password</label>
                                 <div class="col-sm-10">
-                                    <input type="text"  value="<?php echo $row['password'];?>" name="edit_password"
+                                    <input type="password"  value="<?php echo $row['password'];?>" name="edit_password"
                                         class="form-control " required>
                                 </div>
                             </div>
@@ -103,7 +103,7 @@
                     </form>
 
             </div>
-            <?php    
+            <?php
             }
           }
           ?>

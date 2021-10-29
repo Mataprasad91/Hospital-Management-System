@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-info navbar__main">
-  
+
   <div class="container-fluid">
     <a class="navbar-brand" href="#">JANSEVA HOSPITAL</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -13,11 +13,11 @@
         <li class="nav-item">
           <a class="nav-link active" href="#">ABOUTUS</a>
         </li>
-        
+
         <li class="nav-item">
           <a class="nav-link active" href="../admin/doctor.php">OUR DOCTORS </a>
         </li>
-          
+
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle active " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="true">
@@ -41,7 +41,7 @@
       </ul>
       <form class="form-inline my-2 my-lg-0 ml-auto search2">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        
+
       </form>
     </div>
   </div>

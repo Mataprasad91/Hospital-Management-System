@@ -27,13 +27,13 @@ include "../public/includes2/navbar.php";
     </div>
 
 <div class="container">
-    <img class="img-holder" src="drsandeep.jpg" />
+    <img class="img-holder" src="DR.RAM.jpg" />
     <div class="det-holder">
-    <h3 class="blog-title">Dr. Yogesh R. Vaidya</h3>
-		<p><strong>Joint Replacement, Adult Fractures and General Orthopaedics</strong> </p>
+    <h3 class="blog-title">Dr. Yogesh M. Vaidya</h3>
+		<p><strong>Joint Replacement, covid and General Orthopaedics</strong> </p>
     <p><strong>Experience and Qualifications:</strong></p>
     <ul>
-        <li>MBBS: LTM Medical College, Sion, Mumbai</li>
+        <li>MBBS: tmt Medical College, kurla, Mumbai</li>
         <li>MS Orthopaedics: Seth GS Medical College and KEM Hospital, Mumbai</li>
         <li>DNB Orthopaedics</li>
         <li>Consultant Orthopaedic Surgeon since 2004</li>
@@ -58,7 +58,7 @@ include "../public/includes2/navbar.php";
 		<p><strong>Joint Replacement, Adult Fractures and General Orthopaedics</strong> </p>
     <p><strong>Experience and Qualifications:</strong></p>
     <ul>
-        <li>MBBS: LTM Medical College, Sion, Mumbai</li>
+        <li>MBBS: LTM Medical College, mathura, UP</li>
         <li>MS Orthopaedics: Seth GS Medical College and KEM Hospital, Mumbai</li>
         <li>DNB Orthopaedics</li>
         <li>Consultant Orthopaedic Surgeon since 2004</li>
@@ -80,10 +80,10 @@ include "../public/includes2/navbar.php";
 
         <section>
         <div class="container">
-    <img class="img-holder" src="drsandeep.jpg" />
+    <img class="img-holder" src="DR.ROHAN.jpg" />
     <div class="det-holder">
-    <h3 class="blog-title">Dr. Yogesh R. Vaidya</h3>
-		<p><strong>Joint Replacement, Adult Fractures and General Orthopaedics</strong> </p>
+    <h3 class="blog-title">Dr. rohan V. Rao</h3>
+		<p><strong>Brain Replacement, Neurology Department</strong> </p>
     <p><strong>Experience and Qualifications:</strong></p>
     <ul>
         <li>MBBS: LTM Medical College, Sion, Mumbai</li>
@@ -106,9 +106,9 @@ include "../public/includes2/navbar.php";
 
         <section>
         <div class="container">
-    <img class="img-holder" src="drsandeep.jpg" />
+    <img class="img-holder" src="DR.SAURAV.jpg" />
     <div class="det-holder">
-    <h3 class="blog-title">Dr. Yogesh R. Vaidya</h3>
+    <h3 class="blog-title">Dr. Saurav R. Chavan</h3>
 		<p><strong>Joint Replacement, Adult Fractures and General Orthopaedics</strong> </p>
     <p><strong>Experience and Qualifications:</strong></p>
     <ul>
@@ -131,10 +131,10 @@ include "../public/includes2/navbar.php";
 
         <section>
         <div class="container">
-    <img class="img-holder" src="drsandeep.jpg" />
+    <img class="img-holder" src="DR.VISHAL.jpg" />
     <div class="det-holder">
-    <h3 class="blog-title">Dr. Yogesh R. Vaidya</h3>
-		<p><strong>Joint Replacement, Adult Fractures and General Orthopaedics</strong> </p>
+    <h3 class="blog-title">Dr.Vishal R. Maurya</h3>
+		<p><strong>Heart Replacement,Cardiology Department</strong> </p>
     <p><strong>Experience and Qualifications:</strong></p>
     <ul>
         <li>MBBS: LTM Medical College, Sion, Mumbai</li>

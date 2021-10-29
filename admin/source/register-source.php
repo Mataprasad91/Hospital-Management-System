@@ -12,17 +12,17 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     $DOB=$_POST['DOB'];
     $bloodgroup=$_POST['bloodgroup'];
     $phone=$_POST['phoneNumber'];
-    $email=mysqli_escape_string($conn, $_POST['email']); 
-    $password=$_POST['password'];
-    $cpassword=$_POST['cpassword'];
+    $email=mysqli_escape_string($conn, $_POST['email']);
+    $password=md5($_POST['password']);
+    $cpassword=md5($_POST['cpassword']);
 
-  
+
     if($password === $cpassword){
-        
+
         $emailCheck = "SELECT * FROM register_patient WHERE email = '$email' ";
         $result = mysqli_query($conn, $emailCheck);
         echo mysqli_error($conn);
-            $insertquery="insert into register_patient (firstname , lastname , Address , DOB , bloodgroup ,phoneNumber, email , password , cfpass ) 
+            $insertquery="insert into register_patient (firstname , lastname , Address , DOB , bloodgroup ,phoneNumber, email , password , cfpass )
             values('$firstname','$lastname','$address','$DOB','$bloodgroup','$phone','$email','$password','$cpassword')" ;
             $iquery=mysqli_query($conn,$insertquery);
             if($iquery){
@@ -32,14 +32,14 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
             else{
                 echo mysqli_error($conn);
             }
-            
-        
-    }
-   
-    
-   
 
-   
 
     }
-?> 
+
+
+
+
+
+
+    }
+?>

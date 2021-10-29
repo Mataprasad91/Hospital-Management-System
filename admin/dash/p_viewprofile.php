@@ -9,6 +9,7 @@ if (!isset($_SESSION['email']))
 // include "../allPatientFunction.php";
 
 ?>
+<?php if (isset($_SESSION['email'])){ $PEmail = $_SESSION['email']; echo "<script>console.log('Debug Objects: " . $_SESSION['email'] . "' );</script>";   }?>
 
 <html>
     <body>
@@ -33,19 +34,7 @@ if (!isset($_SESSION['email']))
                   <div class="follow-ava">
                     <img src="img/profile-widget-avatar.jpg" alt="">
                   </div>
-                </div>
-                <div class="col-lg-4 col-sm-4 follow-info">
 
-                </div>
-                <div class="col-lg-2 col-sm-6 follow-info weather-category">
-
-                </div>
-                <div class="col-lg-2 col-sm-6 follow-info weather-category">
-
-                </div>
-                <div class="col-lg-2 col-sm-6 follow-info weather-category">
-
-                </div>
               </div>
             </div>
           </div>
@@ -58,13 +47,11 @@ if (!isset($_SESSION['email']))
                 <ul class="nav nav-tabs">
                   <li class="active">
                   <a data-toggle="tab" >
-                                          <i class="icon-user"></i>
-                                           MY PROFILE
-                                      </a>
+                   <i class="icon-user"></i>
+                      MY PROFILE
+                  </a>
                   </li>
                   <li >
-
-
                 </ul>
               </header>
               <div class="panel-body">
@@ -78,8 +65,9 @@ if (!isset($_SESSION['email']))
                         $db="hospitalmangsystem";
 
                         // Create connection
+                        $email = $row['email'];
                         $conn = mysqli_connect($servername, $username, $password,$db);
-                        $sql="SELECT * FROM register_patient where patientId = 5";
+                        $sql="SELECT * FROM register_patient where email ='$PEmail'";
                         $query=mysqli_query($conn,$sql);
                         if(mysqli_num_rows($query)>0){
                             while($row=mysqli_fetch_assoc($query))
@@ -121,10 +109,8 @@ if (!isset($_SESSION['email']))
                         </div>
                       </div>
                     </section>
-                    <section>
-                      <div class="row">
-                      </div>
-                    </section>
+
+
 
                       </div>
 

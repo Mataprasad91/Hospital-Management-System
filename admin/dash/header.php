@@ -21,7 +21,7 @@ include "../allFunction.php";
     <link rel="shortcut icon" href="img/favicon.png">
 
     <title>ADMIN DASHBOARD</title>
-    ]
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <link href="css/bootstrap-theme.css" rel="stylesheet">

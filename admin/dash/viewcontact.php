@@ -15,29 +15,29 @@ $url = substr($currentURL, strrpos($currentURL, '?') + 1);
 if ($url == "msg=contactdeleted") {
   echo '<div class="alert alert-dismissible alert-success">
             <button type="button" class="btn-close close" data-dismiss="alert"></button>
-            <strong>CONTACTUS  DELETED</strong> 
+            <strong>CONTACTUS  DELETED</strong>
           </div>';
 }
-?>   
+?>
   </div>
 </div>
         <div class="row">
           <div class="col-lg-12">
-            
+
             </ol>
           </div>
         </div>
-        
+
           </div>
         </div>
         <div class="row">
           <div class="col-lg-12">
             <section class="panel">
               <header class="panel-heading">
-               VIEW CONTACTUS 
+               VIEW CONTACTUS
               </header>
-              
-              
+
+
               <?php
               $sql="SELECT * FROM viewcontacts";
               $query=mysqli_query($conn,$sql);
@@ -56,7 +56,7 @@ if ($url == "msg=contactdeleted") {
                     <th>EMAIL</th>
                     <th>SUBJECT</th>
                     <th>DELETE</th>
-                    
+
                   </tr>
                 </thead>
                 <tbody>
@@ -64,12 +64,9 @@ if ($url == "msg=contactdeleted") {
                 if(mysqli_num_rows($query)>0)
                 {
                      while($row=mysqli_fetch_assoc($query))
-                      {  
+                      {
                ?>
 
-
-
-                       
                 <tr>
                     <td> <?php echo $row['first_name']; ?></td>
                     <td> <?php echo $row['last_name']; ?></td>
@@ -83,7 +80,7 @@ if ($url == "msg=contactdeleted") {
                         <button type="submit" name="del_button" class="btn btn-danger">DELETE</a></button>
                       </form>
                     </td>
-                   
+
                   </tr>
                   <?php
                      }
@@ -91,14 +88,14 @@ if ($url == "msg=contactdeleted") {
                 }else{
                     echo"record is not view";
                 }
-                
+
                  ?>
                </tbody>
               </table>
             </section>
           </div>
 
- 
+
 <?php
   include ("footer.php");
 ?>

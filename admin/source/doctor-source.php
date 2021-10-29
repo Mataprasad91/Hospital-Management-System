@@ -19,32 +19,13 @@ $db=mysqli_select_db($conn,'hospitalmangsystem');
       header("location:  ../dash/doctordashboard.php?msg=LoginSuccessfull");
     }
       else{
-      
+
         header("location: ../doctor-login.php?loginFailed");
 
       }
 
 
   }
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ?>

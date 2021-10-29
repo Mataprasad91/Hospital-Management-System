@@ -7,8 +7,6 @@ include "../../db/dbconfig.php";
 
 if(isset($_POST['update']))
       {
-        
-       
 
         $firstname=$_POST['edit_firstname'];
         $lastname=$_POST['edit_lastname'];
@@ -24,7 +22,7 @@ if(isset($_POST['update']))
         echo $sql;
         if(mysqli_num_rows($queryForId)>0){
          while($rowForId=mysqli_fetch_assoc($queryForId))
-         { 
+         {
            $id = $rowForId['patientId'];
            echo $id;
          }
@@ -34,10 +32,10 @@ if(isset($_POST['update']))
 
         $sql="UPDATE register_patient  SET firstname='$firstname',lastname='$lastname', phoneNumber='$Contact',Address='$Address',DOB='$Dob',bloodgroup='$Bloodgroup',email='$Email' where patientId=$id ";
         $query=mysqli_query($conn,$sql);
-        
+
         if($query)
         {
-            
+
             header('location: ../dash/p_viewprofile.php?msg=patientProfileUpdated');
         }
         else{
