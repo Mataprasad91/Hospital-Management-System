@@ -12,11 +12,10 @@
 </div>
         <div class="row">
           <div class="col-lg-12">
-            
             </ol>
           </div>
         </div>
-        
+
           </div>
         </div>
         <div class="row">
@@ -25,8 +24,8 @@
               <header class="panel-heading">
                VIEW APPOINTMENT HISTORY
               </header>
-              
-              
+
+
               <?php
 
 
@@ -56,8 +55,8 @@
                 if(mysqli_num_rows($query)>0)
                 {
                      while($row=mysqli_fetch_assoc($query))
-                      {  
-               ?>        
+                      {
+               ?>
                 <tr>
                     <td> <?php echo $row['APPOINTMENTID']; ?></td>
                     <td> <?php echo $row['FIRSTNAME'] . " " .$row['LASTNAME'] ; ?></td>
@@ -76,14 +75,14 @@
                 }else{
                     echo"record is not view";
                 }
-                
+
                  ?>
                </tbody>
               </table>
             </section>
           </div>
 
- 
+
 <?php
   include ("footer.php");
 ?>
