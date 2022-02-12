@@ -13,8 +13,8 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
     $bloodgroup=$_POST['bloodgroup'];
     $phone=$_POST['phoneNumber'];
     $email=mysqli_escape_string($conn, $_POST['email']);
-    $password=md5($_POST['password']);
-    $cpassword=md5($_POST['cpassword']);
+    $password=($_POST['password']);
+    $cpassword=($_POST['cpassword']);
 
 
     if($password === $cpassword){
